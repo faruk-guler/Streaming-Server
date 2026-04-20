@@ -1,4 +1,4 @@
-# Klasörü oluştur ve RAM Disk olarak bağla (8GB ayırdık)
+# Klasörü oluştur ve RAM Disk olarak bağla
 sudo mkdir -p /tmp/hls
 sudo mount -t tmpfs -o size=4G tmpfs /tmp/hls
 
